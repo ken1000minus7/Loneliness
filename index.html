@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Loneliness</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Lato&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=DotGothic16&family=Mate+SC&family=Mountains+of+Christmas&family=Potta+One&family=Press+Start+2P&family=Source+Code+Pro:wght@200&family=Special+Elite&family=VT323&display=swap');
+	</style> 
+	<link rel="stylesheet" type="text/css" href="css/lonely.css">
+	
+</head>
+<body bgcolor="black">
+
+	<!-- Main title -->
+
+	<div id="title">
+		<h1>Loneliness</h1>
+		<div id="sections">
+			<img id="img" src="https://cdn.discordapp.com/emojis/695311811615916069.gif?v=1">
+			<div id="main">
+				<div id="head">
+					Please enter your name!
+				</div>
+				<div id="text">
+					Waiting for your response!
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/lonely.js"></script>
+
+	<!-- Links to each section -->
+
+	<div id="links" class="section">
+		<div id="linktext">
+			<p class="linktext" id="linktext1">
+				So, what do you want to do?
+			</p>
+			<p class="linktext" id="linktext2">
+				We have got a bunch of stuff to ensure that you have a great time with us!
+			</p>
+		</div>
+		<div id="li">
+			<a href="#music" class="links" id="mlink">Play some music for me!</a>
+			<a href="#quiz" class="links" id="qlink">Maybe a quiz about me would be fun</a>
+			<a href="#confession" class="links" id="clink">I just want to talk a bit</a>
+			<a href="#game" class="links" id="glink">Right now, a game is all I need!</a>
+			<a href="#help" class="links" id="hlink">Leave all that! I need help here!</a>
+			<a href="#about" class="links" id="alink">Tell me a little about yourself</a>
+		</div>
+	</div>
+
+	<!-- Music section -->
+
+	<div id="music" class="section">
+  		<h1 class="music">Let's have some music to lighten things up!</h1>
+  		<h1 id="mshead">Here's a playlist for you to vibe to!</h1>
+  		<div id="musicstuff">
+  			<img height="256" width="256" src="https://cdn.discordapp.com/emojis/809327886279376936.gif?v=1">
+  			<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLjYHa0HTCtWUEJwSHEta1wRUYKTDiUnrS&showinfo=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			<img height="256" width="256" src="https://cdn.discordapp.com/emojis/809327886279376936.gif?v=1">
+  		</div>
+  		<div class="gotop">
+  			<a href="#links" class="top">Take me back up!</a>
+  		</div>
+	</div>
+
+	<!-- Quiz section -->
+
+	<div id="quiz" class="section">
+  			<h1 id="quizhead" class="quiz">Time for a fun quiz!</h1>
+  			<div id="buttons">
+  				<h1 id="q">Click on Start to begin!</h1>
+  				<div id="options">
+  					<!-- <div class="options" id="op1">
+  						<input type="radio" name="options" id="1">
+  						<span id="op1text"></span>
+  					</div>
+  					<div class="options" id="op2">
+  						<input type="radio" name="options" id="2">
+  						<span id="op2text"></span>
+  					</div>
+  					<div class="options" id="op3">
+  						<input type="radio" name="options" id="3">
+  						<span id="op3text"></span>
+  					</div>
+  					<div class="options" id="op4">
+  						<input type="radio" name="options" id="4">
+  						<span id="op4text"></span>
+  					</div> -->
+  				</div>
+  				<div class="button" id="next" onclick="quiz()">Start</div>
+
+  			</div>
+  			<div class="gotop">
+  				<a href="#links" class="top">Take me back up!</a>
+  			</div>
+  	</div>
+	
+  	<!-- Confession section -->
+
+	<div id="confession" class="section">
+		<h1 id="chead">
+			Vent out all your bottled up thoughts here!
+		</h1>
+		<h1 id="cshead">
+			Anything you write here won't be saved anywhere, so write whatever you want!
+		</h1>
+		<div id="ccontent">
+			<div id="box">
+				<textarea id="cbox"></textarea>
+			</div>
+			<div id="csubmit" onclick="confessionsubmit()">Submit</div>
+		</div>
+		<div class="gotop">
+  			<a href="#links" class="top">Take me back up!</a>
+  		</div>
+	</div>
+
+	<!-- Game section -->
+
+	<div id="game" class="section">
+		<h1 id="ghead">
+			A heartwarming game is all you need!
+		</h1>
+		<div id="gcontent">
+			<iframe src="https://i.simmer.io/@ken1000minus7/galaxy-shooter" style="width:960px;height:600px"></iframe>	
+		</div>
+		<div class="gotop">
+  			<a href="#links" class="top">Take me back up!</a>
+  		</div>
+	</div>
+
+	<!-- Help section -->
+
+	<div id="help" class="section">
+		<h1 id="hhead">
+			Need some help? We've got you covered!
+		</h1>
+		<div id="hcontent">
+			<div id="topics">
+				<div class="t" id="t1" onclick="help('t1')" style="background-color: white;color: black;" onMouseOver="this.style.color='black'" onMouseOut="colorchange('t1')">
+					Stress
+				</div>
+				<div class="t" id="t2" onclick="help('t2')" onMouseOver="this.style.color='black'" onMouseOut="colorchange('t2')">
+					Sleep deprivation
+				</div>
+				<div class="t" id="t3" onclick="help('t3')" onMouseOver="this.style.color='black'" onMouseOut="colorchange('t3')">
+					Anxiety
+				</div>
+				<div class="t" id="t4" onclick="help('t4')" onMouseOver="this.style.color='black'" onMouseOut="colorchange('t4')">
+					Low Self Esteem
+				</div>
+				<div class="t" id="t5" onclick="help('t5')" onMouseOver="this.style.color='black'" onMouseOut="colorchange('t5')">
+					Insecurity
+				</div>
+				<div class="t" id="t6" onclick="help('t6')" onMouseOver="this.style.color='black'" onMouseOut="colorchange('t6')">
+					Depression
+				</div>
+				<div class="t" id="t7" onclick="help('t7')" onMouseOver="this.style.color='black'" onMouseOut="colorchange('t7')">
+					Lack of Happiness
+				</div>
+			</div>
+			<div id="blog">
+				<iframe src="https://snacknation.com/blog/how-to-reduce-stress-at-work/" name="helpblog1" id="b1"></iframe>
+				<p><a href="https://snacknation.com/blog/how-to-reduce-stress-at-work/" class="blink" id="b1link" target="blank">Read complete blog</a></p>
+			</div>
+		</div>
+		<div id="helpline">
+
+		</div>
+		<div class="gotop">
+  			<a href="#links" class="top">Take me back up!</a>
+  		</div>
+	</div>
+
+	<!-- About us section -->
+
+	<div id="about" class="section">
+		<h1 id="ahead">
+			Some info about us!
+		</h1>
+		<div id="acontent">
+			<div class="person" id="p1">
+				<h1 class="name">
+					Manjot Singh Oberoi
+				</h1>
+				<div class="social">
+					<a href="https://github.com/ken1000minus7" class="g" target="blank">
+						<img src="images/github.png" alt="Github" class="git">
+					</a>
+					<a href="https://www.linkedin.com/in/manjot-singh-oberoi-7371a5203" class="lin" target="blank">
+						<img src="images/linkedin.png" alt="Linkedin" class="linkin">
+					</a>
+				</div>
+			</div>
+			<div class="person" id="p2">
+				<h1 class="name">
+					Rijul Singla
+				</h1>
+				<div class="social">
+					<a href="https://github.com/SinglaRijul" class="g" target="blank">
+						<img src="images/github.png" alt="Github" class="git">
+					</a>
+					<a href="https://www.linkedin.com/in/rijul-singla-b7b0a0203" class="lin" target="blank">
+						<img src="images/linkedin.png" alt="Linkedin" class="linkin">
+					</a>
+				</div>
+			</div>
+			<div class="person" id="p3">
+				<h1 class="name">
+					Armaan Badhan
+				</h1>
+				<div class="social">
+					<a href="https://github.com/armaanbadhan" class="g" target="blank">
+						<img src="images/github.png" alt="Github" class="git">
+					</a>
+					<a href="https://www.linkedin.com/in/armaanbadhan/" class="lin" target="blank">
+						<img src="images/linkedin.png" alt="Linkedin" class="linkin">
+					</a>
+				</div>
+			</div>
+			<div class="person" id="p4">
+				<h1 class="name">
+					Munish Kumar
+				</h1>
+				<div class="social">
+					<a href="https://github.com/munish0838" class="g" target="blank">
+						<img src="images/github.png" alt="Github" class="git">
+					</a>
+					<a href="https://www.linkedin.com/in/munish-kumar-981777202" class="lin">
+						<img src="images/linkedin.png" alt="Linkedin" class="linkin" target="blank">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="gotop">
+  			<a href="#links" class="top">Take me back up!</a>
+  		</div>
+	</div>
+</body>
+</html>

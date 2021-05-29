@@ -1,0 +1,570 @@
+    /*font-family: 'Fredericka the Great', cursive;
+
+    font-family: 'Indie Flower', cursive;
+
+    font-family: 'Lato', sans-serif;*/
+
+    /*font-family: 'Bangers', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Mate SC', serif;
+    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Potta One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Special Elite', cursive;
+    font-family: 'VT323', monospace;*/
+* {
+	padding:0px 0px;
+	margin: 0px 0px;
+}
+
+body>*{
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Title */
+
+
+#title {
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 64px;
+	color:white;
+}
+
+#title::before{
+    content: "";
+    position:absolute;
+    height:700px; 
+    width:100%; 
+    left:0px;
+    right: 0px;
+    z-index:-1;
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+        }
+
+
+
+/*Welcome*/
+
+
+#sections {
+    display: flex;
+    margin-top: 20px;
+    /*margin: auto;*/
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+
+
+#main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*margin: auto;*/
+    justify-content: center;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    width:900px;
+}
+
+#head {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#text {
+    font-size: 40px;
+}
+
+#img {
+    height:256px;
+}
+
+
+
+/*Links*/
+
+
+#links {
+    margin-top: 50px;
+    height: 500px;
+    font-family: 'Lato', sans-serif;
+}
+
+#linktext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.linktext {
+    color: white;
+    
+    padding: 20px 0px;
+}
+#linktext1 {
+    font-size: 50px;
+}
+#linktext2 {
+    font-size: 30px;
+}
+#li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 0;
+}
+
+#li a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    margin:5px;
+    font-size: 25px;
+    height: 149px;
+    width: 149px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#li a:hover {
+    background-color: white;
+    color: black;
+    background-image: none;
+
+}
+
+#mlink {
+    background-image: url('../images/music.gif');
+}
+
+#qlink {
+    background-image: url('../images/quiz.gif');
+    background-size: cover;
+}
+
+#clink {
+    background-image: url('../images/confession.gif');
+    background-size: cover;
+}
+
+#glink {
+    background-image: url('../images/game.gif');
+    background-size: cover;
+}
+
+#hlink {
+    background-image: url('../images/help.gif');
+    background-size: cover;
+}
+
+#alink {
+    background-image: url('../images/about.gif');
+    background-size: cover;
+}
+
+
+/*Music*/
+
+
+#music{
+    background-image: url(../images/musicbg.gif);
+    height: 650px;
+    font-family: 'Bangers', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Potta One', cursive;
+}
+
+
+/*#music h1{
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+
+}*/
+
+#mshead {
+    padding: 10px;
+    /*margin: 20px;*/
+    font-size: 30px;
+    color: white;
+}
+
+.music {
+    padding: 20px;
+    /*margin: 20px;*/
+    font-size: 50px;
+    color: white;
+}
+
+#musicstuff {
+    display: flex;
+}
+
+#musicstuff *{
+    padding:20px;
+    margin: 20px;
+}
+
+.gotop {
+    display: flex;
+}
+
+.top {
+    align-self: flex-end;
+    padding:5px;
+    font-size: 28px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.top:hover{
+    background-color: white;
+    color: black; 
+}
+
+
+/*Quiz*/
+
+
+#quiz {
+    background-image: url(../images/quizbg.gif);
+    color: white;
+    height: 720px;
+    font-family: 'Special Elite', cursive;
+}
+
+
+#quizhead {
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+}
+
+#buttons {
+    border:2px solid white;
+    padding: 20px;
+    margin:20px;
+    height: 420px;
+    width:80%;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/q.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#q {
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+    height: 50px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 200px;
+}
+
+#next {
+    align-self: flex-end;
+    padding:5px;
+    font-size: 28px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#next:hover{
+    background-color: white;
+    color: black; 
+    cursor: pointer;
+}
+
+.options {
+    font-size: 35px;
+    text-align:left; 
+}
+
+.op {
+    height: 23px;
+    width:23px;
+}
+
+/*Confession*/
+
+#confession {
+    background-image: url(../images/conbg.gif);
+    color: white;
+    height: 800px;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+#ccontent *{
+    padding: 20px;
+}
+#chead {
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#ccontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#csubmit {
+    align-self: flex-end;
+    padding:5px;
+    font-size: 28px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+#csubmit:hover{
+    background-color: white;
+    color: black; 
+    cursor: pointer;
+    
+}
+
+
+#box{
+    padding: 5px;
+    font-size: 40px;
+    height: 460px;
+    /*margin: 10px;*/
+    width: 1050px;
+    text-align: center;
+    font-weight: bold;
+}
+#cbox {
+    /*padding: 5px;*/
+    font-size: 30px;
+    height: 400px;
+    width: 1011px;
+    /*margin: 10px;*/
+}
+
+#cschead {
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+/*Game*/
+
+#game {
+    background-color:#001948;
+    color: white;
+    font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive;
+    /*font-family: 'DotGothic16', sans-serif;*/
+    height: 800px;
+    background-image: url("../images/gbg.gif");
+}
+
+#ghead {
+    font-size: 35px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#gcontent {
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Help*/
+
+#help {
+    background-image: url(../images/hbg.gif);
+    background-image: url(../images/helpbg.gif);
+    color: white;
+    /*margin-top: 20px;*/
+    height: 800px;
+    font-family: 'Mate SC', serif;
+}
+
+#b1 {
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    margin: 10px;
+}
+
+.blink {
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.blink:hover{
+    background-color: white;
+    color: black; 
+    cursor: pointer;
+}
+
+#hcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.t {
+    border:2px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 240px;
+}
+.t:hover{
+    background-color: white;
+    color: black; 
+    cursor: pointer;
+}
+
+#hhead {
+    font-size: 50px;
+    padding: 10px;
+}
+
+/*About us*/
+
+#about {
+    /*background-color:#501920;*/
+    background-image: url(../images/cbg.gif);
+    background-size: contain;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    height: 510px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#acontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 270px;
+    height:270px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    padding: 10px;
+}
+
+.name {
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.git {
+    height: 50px;
+    background-color: white;
+}
+
+.linkin {
+    height: 50px;
+}
+
+#ahead {
+    font-size: 50px;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 800px) {
+
+}
