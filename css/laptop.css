@@ -1,0 +1,202 @@
+.section {
+	margin: 30px 0px;
+}
+
+/*Title*/
+
+#title {
+	font-size: 48px;
+}
+
+#title::before {
+	height:650px;
+}
+
+/*Welcome*/
+
+#head {
+	font-size: 70px;
+}
+
+#text {
+	font-size:35px;
+}
+
+#img {
+	height: 180px;
+}
+
+/*Links*/
+
+#links {
+	height: 450px;
+}
+
+#linktext1 {
+	font-size: 40px;
+}
+
+#linktext2 {
+	font-size: 25px;
+}
+
+#li a {
+	width:111px;
+	font-size: 20px;
+	padding: 0px;
+}
+
+/*Music*/
+
+.music {
+	font-size: 38px;
+}
+
+#mshead {
+	font-size: 28px;
+}
+
+#musicstuff *{
+	padding: 0px;
+	margin: 15px;
+}
+
+#musicstuff img{
+	height: 150px;
+	width: 150px;
+}
+
+.top {
+	font-size: 25px;
+}
+
+/*Quiz*/
+
+#buttons {
+	margin: 0px;
+}
+
+#quizhead {
+	font-size: 42px;
+}
+
+#q {
+	font-size: 30px;
+}
+
+.options {
+	font-size: 28px;
+}
+
+/*Confession*/
+
+#chead {
+	margin: 0px;
+}
+
+#ccontent * {
+	padding: 0px;
+}
+
+#box {
+	width: 700px;
+}
+
+#cbox {
+	width: 700px;
+}
+
+#csubmit {
+	margin: 0px;
+}
+
+/*Game*/
+
+#game {
+	height:620px;
+}
+
+#ghead {
+	font-size: 24px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#gframe{
+	width: 730px;
+	height: 456px;
+}
+
+#gcontent {
+	margin: 0px;
+}
+
+/*Help*/
+
+#help {
+	height: 620px;
+}
+
+#hhead {
+	font-size: 40px;
+	padding:0px;
+}
+
+#topics {
+	margin: 0px;
+}
+
+.t {
+	padding: 0px;
+	margin: 5px;
+	width: 150px;
+	font-size: 20px;
+}
+
+#b1 {
+	width: 572px;
+	height: 430px;
+	margin: 10px;
+}
+
+.blink {
+	font-size: 20px;
+}
+
+#blog {
+	margin: 5px;
+}
+
+/*About*/
+
+#about {
+	margin:0px;
+	padding: 0px;
+	height: 315px;
+}
+
+.name {
+	margin: 0px;
+	font-size: 25px;
+}
+
+.social {
+	margin: 0px;
+	padding: 0px;
+}
+
+.person {
+	padding: 0px;
+	margin: 2px;
+	height: 180px;
+	width: 180px;
+}
+
+#acontent {
+	margin: 0px;
+	padding: 5px;
+}
+
+#ahead {
+	font-size: 38px;
+}
