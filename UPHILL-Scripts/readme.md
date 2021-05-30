@@ -1,3 +1,3 @@
 #UPHILL
 
-game
+Contains the C# scripts used in #UPHILL game
