@@ -264,3 +264,26 @@ function confessionsubmit()
 		submitted=false;
 	}
 }
+
+// Game closing and opening
+
+let open=`<iframe id="gframe" src="https://i.simmer.io/@armaanxbadhan/uphill"></iframe>`
+let close=`<h1 id="gframe">Game has been closed.</h1>`
+
+let opened=true;
+
+function game()
+{
+	if(opened)
+	{
+		document.getElementById("gcontent").innerHTML=close;
+		document.getElementById("close").innerHTML="Start Game";
+		opened=false;
+	}
+	else
+	{
+		document.getElementById("gcontent").innerHTML=open;
+		document.getElementById("close").innerHTML="Close Game";
+		opened=true;
+	}
+}

@@ -422,7 +422,7 @@ h1 {
     font-family: 'VT323', monospace;
     font-family: 'Press Start 2P', cursive;
     /*font-family: 'DotGothic16', sans-serif;*/
-    height: 800px;
+    height: 840px;
     background-image: url("../images/gbg.gif");
 }
 
@@ -440,6 +440,13 @@ h1 {
 #gframe {
     width:960px;
     height:600px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+
+#close {
+    cursor: pointer;
 }
 
 /*Help*/
@@ -578,10 +585,4 @@ h1 {
 
 #ahead {
     font-size: 50px;
-}
-
-/*Media queries*/
-
-@media only screen and (max-width: 800px) {
-
 }
