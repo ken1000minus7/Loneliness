@@ -8,3 +8,7 @@ The game embedded within the website is totally an original adventure-platformer
 
 The inspiration behind the project was mainly to provide a comfort place for all the mentally stressed people combined with all the information we can give them. 
 If not anything it sure will help you get rid of your loneliness!
+
+
+Link to Website:
+https://ken1000minus7.github.io/Loneliness/
