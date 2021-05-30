@@ -422,7 +422,7 @@ h1 {
     font-family: 'VT323', monospace;
     font-family: 'Press Start 2P', cursive;
     /*font-family: 'DotGothic16', sans-serif;*/
-    height: 840px;
+    height: 880px;
     background-image: url("../images/gbg.gif");
 }
 
@@ -447,6 +447,13 @@ h1 {
 
 #close {
     cursor: pointer;
+    margin: 3px;
+}
+
+#download {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 3px;
 }
 
 /*Help*/
