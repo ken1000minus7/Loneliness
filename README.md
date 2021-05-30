@@ -4,7 +4,7 @@ Every age group can use this website to get some good vibes and a great way to t
 It also focuses on motivating people for finding friends and have social interaction.
 Other than that , It provides bunch of accessories like listening to music , playing  a game  and getting out bottled up thoughts!!  T
 
-The game embedded within the website is totally an original adventure-platformer made with about 15 minutes gameplay , made for relaxing from hectic life and providing you me-time. It hits your hearts with the story it really provides you!
+The [game](https://github.com/ken1000minus7/Loneliness/releases/tag/v1.0.0) embedded within the website is totally an original adventure-platformer made with about 15 minutes gameplay , made for relaxing from hectic life and providing you me-time. It hits your hearts with the story it really provides you!
 
 The inspiration behind the project was mainly to provide a comfort place for all the mentally stressed people combined with all the information we can give them. 
 If not anything it sure will help you get rid of your loneliness!
